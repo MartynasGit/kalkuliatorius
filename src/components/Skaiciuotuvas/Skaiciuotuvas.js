@@ -16,13 +16,34 @@ const Skaiciuotuvas = () =>
         <input type ="text"placeholder='Second number' onChange={(e)=> setSecond(e.target.value)}></input>
       </div>
       <div className="m-3 d-flex gap-2">
-<Mygtukas
-pirmas = {first}
-antras = {second}
-text = {"Sudetis"}
-operator = {"+"}
-setSum={setSum}
-/>
+      <Mygtukas
+        pirmas = {first}
+        antras = {second}
+        text = {"Sudeti"}
+        operator = {"+"}
+        setSum={setSum}
+      />
+      <Mygtukas
+        pirmas = {first}
+        antras = {second}
+        text = {"Atimti"}
+        operator = {"-"}
+        setSum={setSum}
+      />
+      <Mygtukas
+        pirmas = {first}
+        antras = {second}
+        text = {"Dauginti"}
+        operator = {"*"}
+        setSum={setSum}
+      />
+      <Mygtukas
+        pirmas = {first}
+        antras = {second}
+        text = {"Dalinti"}
+        operator = {"/"}
+        setSum={setSum}
+      />
       </div>
   </div>
 )};

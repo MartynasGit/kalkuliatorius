@@ -9,7 +9,16 @@ const Mygtukas = ({pirmas, antras, text, operator, setSum}) => {
       case '+':
         setSum(parseInt(pirmas) + parseInt(antras))
         break
-        
+      case '-':
+        setSum(parseInt(pirmas) - parseInt(antras))
+        break
+      case '*':
+        setSum(parseInt(pirmas) * parseInt(antras))
+        break
+      case '/':
+        setSum(parseInt(pirmas) / parseInt(antras))
+        break
+
     }
   }
 
