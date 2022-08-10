@@ -6,6 +6,9 @@ A tool to calculate two numbers.
 # How to use
 
 Use node Node.js®
+
 git clone https://github.com/MartynasGit/kalkuliatorius.git
+
 npm instal
+
 npm start
