@@ -3,6 +3,9 @@ import React from 'react';
 import './Mygtukas.css';
 
 const Mygtukas = ({pirmas, antras, text, operator, setSum}) => {
+  if(pirmas == ''|| antras == ''){
+   setSum("")
+  }
 
   const handleOperation = () => {
     switch(operator) {
